@@ -1,0 +1,17 @@
+{
+    "name": "seu-nome/hotel-helper-crud",
+    "description": "Um pacote de helper para operações CRUD em sistemas de reservas de hotel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HotelHelper\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
